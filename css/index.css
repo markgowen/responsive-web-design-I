@@ -342,4 +342,45 @@ button {
 
 /* Mobile View */
 @media screen and (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-top: 1px solid #bec6ce;
+  }
+
+  .navLinks * {
+    width: 100%;
+    color: #bec6ce;
+    padding: 4% 0;
+    border-bottom: 1px solid #bec6ce;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-content {
+    flex-direction: column;
+  }
+
+  .top-content * {
+    margin: 2% 0;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+  }
+
+  .bottom-content * {
+    width: 100%;
+    margin: 2% 0;
+  }
 }
